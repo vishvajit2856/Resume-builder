@@ -1,0 +1,266 @@
+body{
+    background-color: rgb(178, 160, 221);
+    margin: 20px 50px 20px 50px ;
+    padding: 1px;
+    border: 4PX SOLID BLACK;
+}
+
+body h1{
+text-align: center;
+margin-bottom: 40px;
+}
+
+#about_msg{  
+  display: block;
+  background-color:black;
+  margin:10px 0px 10px 0px;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  padding-top:5px ;
+  padding-left: 5px;
+  margin: 30px 5px 10px 5px;
+  text-align: center;
+
+}
+
+.about_section1 input 
+{
+     height: 30px;
+    width: 350px;
+    font-size: 23px;
+}
+
+
+.about_section2 input 
+{
+     height: 30px;
+    width: 350px;
+    font-size: 23px;
+}
+
+ .about_section1{
+     display: inline-flex;
+     align-items: center;
+     width: 1300px;
+     background-color: rgb(178, 160, 221);
+     column-gap: 15%;
+     letter-spacing:  1px;
+     /* border: 2px solid lightgray; */
+    margin:10px 10px 10px 10px;
+    margin-top: 50px;
+   font-size: 25px;
+ } 
+
+.about_section2{
+    background-color: rgb(178, 160, 221);
+    /* margin-top: 2px; */
+    display: inline-flex;
+    align-items: center;
+    width: 1300px;
+    column-gap: 15%;
+    /* border: 2px solid lightgray; */
+    margin:10px 10px 10px 10px;
+    /* margin-top: 20px; */
+    letter-spacing:  1px;
+font-size: 25px;
+    }
+
+.about_section{
+background-color: rgb(178, 160, 221);
+
+}
+
+
+
+.achivement input{
+    height: 20px;
+    width: 280px;
+}
+
+.achivement .titel,.achivement .description
+{
+    font-size: 25px;
+ letter-spacing: 1px;
+}
+
+.achivement input{
+
+height: 40px;
+}
+
+
+.achivement textarea{
+    font-size: 25px;
+    width: 400px;
+}
+
+.achivement{
+    display: inline-flex;
+    gap: 40%;
+    margin-left: 10px;
+}
+
+#achivement-header{  
+    display: block;
+    background-color:black;
+     margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:10px ;
+    padding-left: 5px;
+    margin: 30px 5px 30px 5px;
+    text-align: center;
+}
+
+/* below code for the exprience section */
+
+
+#exprience-header{  
+    display: block;
+    background-color:black;
+    margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:15px ;
+    padding-left: 5px;
+    margin: 30px 5px 10px 5px;
+    text-align: center;
+  margin-top: 50px;
+  }
+
+.experience-row1{
+    display: flex;
+    letter-spacing: 1px;
+    gap: 20%;
+margin-bottom: 25px;
+
+}
+
+.experience-row2{
+    display: flex;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    gap: 20%;
+margin-bottom: 25px;
+
+}
+
+.experience-row1 input{
+    width: 300px;
+    height: 40px;
+    font-size: 23px;
+    margin-left: 8PX;
+}
+
+
+.experience-row2 input{
+    font-size: 23px;
+    width: 280px;
+    height: 30px;
+    margin-left: 10PX;
+
+}
+
+.experience-row2 #experience-end-date input
+{ 
+    margin-right: 50px;
+    font-size: 23px;
+    
+}
+.experience-row2 #experience-description input
+{
+    font-size: 23px;
+
+    padding-right: -30px;
+}
+
+/* experience section code */
+
+
+.education-header{  
+    display: block;
+    background-color:black;
+     margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:10px ;
+    padding-left: 5px;
+    margin: 30px 5px 30px 5px;
+    text-align: center;
+}
+
+
+
+#exprience-header{  
+    display: block;
+    background-color:black;
+    margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:15px ;
+    padding-left: 5px;
+    margin: 30px 5px 10px 5px;
+    text-align: center;
+  margin-top: 50px;
+  }
+
+.education-row1{
+    display: flex;
+    letter-spacing: 1px;
+    gap: 20%;
+margin-bottom: 25px;
+
+}
+
+.education-row2{
+    display: flex;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    gap: 20%;
+margin-bottom: 25px;
+
+}
+
+.education-row1 input{
+    width: 300px;
+    height: 30px;
+    font-size: 23px;
+
+}
+
+
+.education-row2 input{
+    width: 280px;
+    height: 30px;
+    font-size: 23px;
+    
+
+}
+
+.education-row1 .school 
+{ 
+    margin-left: 15px;
+    
+}
+
+.education-row1 .city
+{ 
+    margin-right: 40px;
+    
+}
+.education-row2 #education-start-date 
+{ 
+    margin-left: 15px;
+    
+}
+.education-row2 .education-description 
+
+{
+   
+    align-items: center;
+}

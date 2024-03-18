@@ -1,0 +1,216 @@
+body{
+    background-color: rgb(178, 160, 221);
+    margin: 20px 10px 20px 20px ;
+    padding: 1px;
+    
+}
+
+body h1{
+text-align: center;
+margin-bottom: 40px;
+}
+
+#about_msg{  
+  display: block;
+  background-color:black;
+  margin:10px 0px 10px 0px;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  padding-top:5px ;
+  padding-left: 5px;
+  margin: 30px 5px 10px 5px;
+  text-align: center;
+
+}
+
+.about_section1 input 
+{
+     height: 30px;
+    width: 400px;
+    font-size: 25px;
+}
+
+
+.about_section2 input 
+{
+     height: 30px;
+    width: 400px;
+    font-size: 20px;
+}
+
+ .about_section1{
+     display: inline-flex;
+     align-items: center;
+     width: 1300px;
+     background-color: rgb(178, 160, 221);
+     column-gap: 15%;
+     letter-spacing:  1px;
+     /* border: 2px solid lightgray; */
+    margin:10px 10px 10px 10px;
+    margin-top: 50px;
+   font-size: 25px;
+ } 
+
+.about_section2{
+    background-color: rgb(178, 160, 221);
+    /* margin-top: 2px; */
+    display: inline-flex;
+    align-items: center;
+    width: 1300px;
+    column-gap: 15%;
+    /* border: 2px solid lightgray; */
+    margin:10px 10px 10px 10px;
+    /* margin-top: 20px; */
+    letter-spacing:  1px;
+font-size: 25px;
+    }
+
+.about_section{
+background-color: rgb(178, 160, 221);
+
+}
+
+
+
+.achivement input{
+    height: 20px;
+    width: 280px;
+}
+
+.achivement .titel,.achivement .description
+{
+    font-size: 25px;
+ letter-spacing: 1px;
+}
+
+.achivement input{
+
+height: 40px;
+}
+
+
+.achivement textarea{
+    font-size: 25px;
+    width: 400px;
+}
+
+.achivement{
+    display: inline-flex;
+    gap: 40%;
+    margin-left: 10px;
+}
+
+#achivement-header{  
+    display: block;
+    background-color:black;
+     margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:10px ;
+    padding-left: 5px;
+    margin: 30px 5px 30px 5px;
+    text-align: center;
+}
+
+
+
+
+/* below code is for the education  */
+
+
+.education-header{  
+    display: block;
+    background-color:black;
+     margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:10px ;
+    padding-left: 5px;
+    margin: 30px 5px 30px 5px;
+    text-align: center;
+}
+
+
+
+#exprience-header{  
+    display: block;
+    background-color:black;
+    margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:15px ;
+    padding-left: 5px;
+    margin: 30px 5px 10px 5px;
+    text-align: center;
+  margin-top: 50px;
+  }
+
+.education-row1{
+    display: flex;
+    letter-spacing: 1px;
+    gap: 20%;
+margin-bottom: 25px;
+
+}
+
+.education-row2{
+    display: flex;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    gap: 20%;
+margin-bottom: 25px;
+
+}
+
+.education-row1 input{
+    width: 300px;
+    height: 30px;
+}
+
+
+.education-row2 input{
+    width: 300px;
+    height: 30px;
+
+}
+
+.education-row2 #education-end-date input
+{ 
+    margin-right: ;
+    
+}
+.education-row2 #education-description input
+{
+
+    padding-right: -50px;
+}
+
+/* below code is for the prject details */
+
+.project-header{  
+    display: block;
+    background-color:black;
+    margin:10px 0px 10px 0px;
+    color: white;
+    height: 40px;
+    font-size: 25px;
+    padding-top:15px ;
+    padding-left: 5px;
+    margin: 30px 5px 10px 5px;
+    text-align: center;
+  margin-top: 50px;
+  }
+
+.project-container{
+    display: flex;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    gap: 20%;
+   margin-bottom: 25px;
+
+}
+
