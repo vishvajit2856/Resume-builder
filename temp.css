@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(224, 220, 220);
+}
+.main-board{
+ display: flex;
+  background-color: rgb(154, 189, 235);
+  border:15px solid white;
+  margin:40px;
+  margin-top: 70px;
+  margin-left: 60px;
+  height: 400px;
+  position: fixed;
+  z-index: 3;
+  width: 1700px;
+}
+
+
+#text-tag{
+    text-align: left;
+    display: block;
+    margin-top: 60px;
+  margin-left: 20px;
+  margin-left: 190px;
+}
+
+#image-tag{
+    border-radius: 90%;
+    height: 250px;
+    width: 250px;
+    margin:  30px;
+    border: 6px solid rgb(218, 224, 215);
+   background-color: aqua;
+margin-left: 60px;
+
+}
+
+
+#fullname{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+#gmail,#mobile-no,#address,#designation,#linkedin-profile-link,#gender{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.skill-class
+{
+ 
+   background-color: rgb(78, 78, 89);
+    height: 1000px;
+    width: 500px;
+    position: fixed;
+    z-index: 3;
+   padding-top: 550px;  
+   padding-left:100px ;
+   font-size: 40px;
+
+}
+
+#skill-heading{
+ font-size: 40px;
+margin-bottom: 20px;
+}
+
+#skill1,#skill2,#skill3,#skill4 {
+    margin-bottom: 20px;
+    color: rgb(226, 215, 215);
+}
+
+.education{
+    color: black;
+    background-color: rgb(224, 220, 220);
+  padding-top: 550px;
+
+}
+
+.remain-part{
+    position: fixed;
+}
+#Xth,#xiith{
+    padding-left: 700px;
+    font-size: 25px; 
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+#degree
+{
+    padding-left: 700px;
+    font-size: 25px; 
+  font-weight: bold;
+   
+}
+#summary{
+    
+    padding-left: 700px;
+    font-size: 25px; 
+   margin-top: 0px;
+}
+
+#education-header{
+    font-size: 40px;
+   display:inline-table;
+  padding-bottom: 10px;
+  background-color: rgb(154, 189, 235);
+  margin-left: 700px;
+ margin-bottom: 40px;
+ padding-top: 5px;
+
+}
+
+#project-header{
+    font-size: 40px;
+   display:inline-table;
+  padding-bottom: 10px;
+  background-color: rgb(154, 189, 235);
+  margin-left: 700px;
+ margin-bottom: 40px;
+ padding-top: 5px;
+  position: fixed;
+margin-top: 20px;
+
+}
+#project-name{
+ 
+    padding-top: 80px;
+    font-size: 30px;
+    margin-left: 700px;
+}

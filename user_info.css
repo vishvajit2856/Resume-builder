@@ -1,0 +1,534 @@
+body {
+  background-color: rgb(215, 204, 240);
+  margin: 20px 10px 20px 20px;
+  padding: 1px;
+  border: 4px solid black;
+}
+
+.mainboard {
+  background-color: rgb(189, 186, 186);
+  border: 2px solid black;
+  margin: 20px;
+  height: 1100px;
+}
+
+#resume-builder-header {
+  text-align: center;
+  margin-bottom: 40px;
+  /* background-color: rgb(178, 160, 221); */
+  margin-top: 100px;
+}
+.cv-form {
+  /* background-color: rgb(178, 160, 221); */
+  height: 1600px;
+}
+
+
+#about_msg {
+  display: block;
+  background-color: black;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-left: 5px;
+  margin: 30px 5px 10px 5px;
+  text-align: center;
+}
+
+.about_section1 input {
+  height: 30px;
+  width: 400px;
+  font-size: 25px;
+}
+
+.about_section2 input {
+  height: 30px;
+  width: 400px;
+  font-size: 20px;
+}
+
+.about_section1 {
+  display: inline-flex;
+  align-items: center;
+  width: 1300px;
+  /* background-color: rgb(178, 160, 221); */
+  column-gap: 15%;
+  letter-spacing: 1px;
+  /* border: 2px solid lightgray; */
+  margin: 10px 10px 10px 10px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.about_section2 {
+  /* background-color: rgb(178, 160, 221); */
+  /* margin-top: 2px; */
+  display: inline-flex;
+  align-items: center;
+  width: 1300px;
+  column-gap: 15%;
+  /* border: 2px solid lightgray; */
+  margin: 10px 10px 10px 10px;
+  /* margin-top: 20px; */
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+.skill{
+  display: inline-block;
+   height:100px;
+
+}
+.skill #skill-text{
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.skill #skill-1,#skill-2,#skill-3,#skill-4{
+  height:30px;
+  width: 400px;
+  gap: 50%;
+  margin-right: 300px;
+  font-size: 30px;
+
+}
+
+
+
+
+.achivement input {
+  height: 20px;
+  width: 280px;
+}
+
+.achivement .titel,
+.achivement .description {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+.achivement input {
+  height: 40px;
+  font-size: 25px;
+  
+}
+
+#summary {
+  font-size: 25px;
+  width: 400px;
+}
+
+.achivement textarea {
+  font-size: 25px;
+  width: 400px;
+}
+
+.achivement {
+  display: inline-flex;
+  gap: 40%;
+  margin-left: 10px;
+}
+
+#achivement-header {
+  display: block;
+  background-color: black;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 5px;
+  margin: 30px 5px 30px 5px;
+  text-align: center;
+}
+
+/* below code is for the education  */
+
+.education-header {
+  display: block;
+  background-color: black;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 5px;
+  margin: 30px 5px 30px 5px;
+  text-align: center;
+}
+
+#exprience-header {
+  display: block;
+  background-color: black;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 5px;
+  margin: 30px 5px 10px 5px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.education-row1 {
+  display: flex;
+  letter-spacing: 1px;
+  gap: 20%;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.education-row2 {
+  display: flex;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  gap: 10%;
+  margin-bottom: 25px;
+
+  font-size: 20px;
+}
+
+
+.project1 {
+  display: inline-flex;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  gap: 10%;
+  margin-bottom: 25px;
+
+  font-size: 20px;
+}
+
+.project2 {
+  display: inline-flex;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  gap: 10%;
+  margin-bottom: 25px;
+
+  font-size: 25px;
+}
+.project2 #start-date-project ,#end-date-project{
+  font-size: 25px;
+}
+
+.project1 #project-name,#project-link,#project-description{
+  font-size: 20px;
+}
+
+#education-school,#education-collage,#education-degree{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#education-school-marks,#education-collage-marks,#education-degree-marks{
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.education-row1 input {
+  width: 300px;
+  height: 30px;
+}
+
+.education-row2 input {
+  width: 300px;
+  height: 30px;
+}
+.education-row1 {
+  margin-top: 5px;
+}
+
+
+.education-row2 #education-description input {
+  padding-right: -50px;
+}
+
+/* //start and end date of the school */
+
+
+.experience-row2{
+  display: flex;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  gap: 20%;
+margin-bottom: 25px;
+
+}
+
+
+
+.experience-row2 input{
+  font-size: 23px;
+  width: 280px;
+  height: 30px;
+  margin-left: 10PX;
+
+}
+
+.experience-row2 #experience-end-date input
+{ 
+    margin-right: 50px;
+    font-size: 23px;
+    
+}
+
+
+.experience-row2 #experience-description
+{
+display: hidden;
+}
+
+/* below code is for the prject details */
+
+.project-header {
+  display: block;
+  background-color: black;
+  margin: 10px 0px 10px 0px;
+  color: white;
+  height: 40px;
+  font-size: 25px;
+  padding-top: 15px;
+  padding-left: 5px;
+  margin: 30px 5px 10px 5px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* .project-container{
+    display: flex;
+    font-size: 30px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+  .project-row1{
+    display:inline-flex;
+    letter-spacing: 1px;
+    gap: 20%;
+margin-bottom: 25px;
+
+}
+
+.project-row1 input{
+    width: 300px;
+    height: 30px;
+} */
+
+/* 
+.project-link{
+    display: inline-flex;
+
+}
+
+.project-row1{
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    
+   margin-bottom: 25px;
+   font-size: 30px;
+}
+
+.project-link{
+    margin-right: 20px;
+} */
+
+/* code for the genrate button */
+
+#creat-cv1 {
+  display: inline-flex;
+  margin-top: 60px;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 1500px;
+  margin-left: 40px;
+  font-size: 20px;
+  margin-bottom: 150px;
+}
+
+/* 
+body{
+    margin: 30px 180px 30px 50px;
+    padding: 10px 0px 0px 10px;
+    padding: 0px ;
+    border: 2px solid rgb(243, 86, 86);
+    background-color:rgb(189, 186, 186);
+
+} */
+.mainboard {
+  display: flex;
+  margin-top: 50px;
+}
+
+.main1 #existingImage {
+  display: block;
+  border: 2px solid white;
+
+   border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 220px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.main1 #line {
+  text-align: center;
+  margin-right: 70px;
+}
+
+/* //designation */
+.main1 #Designation2 {
+  text-align: center;
+  margin-right: 70px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+/* heading tag of the about section */
+.main1 #About-heading {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+/* containt of the about tag */
+.main1 #About-text {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+/* contain the styling for the phone no email and adderess  */
+.main1 .About-containt {
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.main1 {
+  background-color: rgb(132, 223, 132);
+  display: block;
+  height: 1000px;
+  width: 800px;
+  margin: 20px;
+}
+.main1 #fullname {
+  font-size: 50px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.main1 ,#skill--1,#skill--2,#skill--3,#skill--4 {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 5px;
+  margin-bottom: 5px;  
+  text-transform: capitalize;
+}
+
+.main2 {
+  background-color: rgb(190, 184, 184);
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 950px;
+  width: 1000px;
+}
+
+/* achivement section */
+.main2 #Achivement-heading {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.main2 #Achivement-titel1 {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight: bold;
+  
+}
+
+.main2 #Achivement-description {
+  margin-left: 30px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-weight:100;
+}
+
+.main2 #Education-heading {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.main2 #Education {
+  margin-left: 30px;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.main2 ,#xth,#xiith,#degree{
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.main1 ,#xth--marks,#xiith--marks,#degree--marks{
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.main2 #project-heading {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.main2 #project-titel {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-left: 20px;
+  font-weight: bold;
+ text-transform: capitalize;
+}
+
+.main2 #project--description {
+  margin-left: 30px;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-size: 30px;
+  word-spacing: 2px;
+}
+
+.main2 #project--link {
+  margin-left: 30px;
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-weight: 100;
+}
+
+#print-button {
+  display: inline-flex;
+
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 1630px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
